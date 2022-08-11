@@ -1,0 +1,26 @@
+{
+  "name": "forlesning9",
+  "version": "1.0.0",
+  "description": "_______",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently npm:dev:client npm:dev:server",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkan2503/forlesning9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furkan2503/forlesning9/issues"
+  },
+  "homepage": "https://github.com/furkan2503/forlesning9#readme",
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
