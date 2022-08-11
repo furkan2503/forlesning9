@@ -22,5 +22,8 @@
   "homepage": "https://github.com/furkan2503/forlesning9#readme",
   "devDependencies": {
     "concurrently": "^7.3.0"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
   }
 }
